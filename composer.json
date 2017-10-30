@@ -1,0 +1,7 @@
+{
+  "name": "maxprihodko8/composer_test_plugin",
+  "type": "composer-plugin",
+  "require": {
+    "composer-plugin-api": "^1.1"
+  }
+}
