@@ -1,7 +1,20 @@
 {
   "name": "maxprihodko8/composer_test_plugin",
-  "type": "composer-plugin",
+  "description": "test",
+  "keywords": ["test"],
+  "type": "package",
   "require": {
-    "composer-plugin-api": "^1.1"
-  }
+  },
+  "license": "MIT",
+  "authors": [{
+    "name": "Maxim Prihodko",
+    "email": "max.prihodko8@gmail.com"
+  }],
+  "autoload": {
+    "psr-4": {
+    }
+  },
+  "version": "1.0.0",
+  "minimum-stability": "dev"
+
 }
